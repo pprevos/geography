@@ -1,0 +1,123 @@
+From,To,Frequency
+Abu Dhabi,Amsterdam,2
+Abu Dhabi,"Melbourne, Australia",2
+Alice Springs,"Melbourne, Australia",2
+Alice Springs,Uluru,1
+Amsterdam,Abu Dhabi,2
+Amsterdam,"Athens, Greece",2
+Amsterdam,Dhaka,1
+Amsterdam,Dubai,3
+Amsterdam,Hong Kong,2
+Amsterdam,Istanbul,1
+Amsterdam,Johannesburg,1
+Amsterdam,London,1
+Amsterdam,Maastricht,2
+Amsterdam,"Manchester, England",2
+Amsterdam,Reykjavik,1
+Amsterdam,Singapore,2
+Amsterdam,Sofia,1
+Amsterdam,Frankfurt,1
+Frankfurt,Frankfurt,1
+"Athens, Greece",Amsterdam,3
+"Athens, Greece",Johannesburg,1
+"Athens, Greece","Melbourne, Australia",1
+Auckland,Hawke's Bay,1
+Auckland,Los Angeles,1
+Auckland,"Melbourne, Australia",1
+Auckland,Singapore,2
+Bangkok,Yangon,1
+Beijing,Hong Kong,1
+Brisbane,"Melbourne, Australia",1
+Brisbane,Port Villa,1
+Brunei,"Miri, Malaysia",1
+Brunei,Singapore,1
+Cairo,Sofia,1
+Cape Town,Johannesburg,1
+Christchurch,"Melbourne, Australia",1
+"Darwin, Australia","Melbourne, Australia",1
+Denpasar,"Melbourne, Australia",1
+Denpasar,Singapore,1
+Dhaka,Kathmandu,1
+Dhaka,Singapore,3
+Dubai,Amsterdam,3
+Dubai,Kuala Lumpur,2
+Dubai,Rome,1
+Duesseldorf,"Luxor, Egypt",1
+Duesseldorf,Moscow,1
+Frankfurt,Amsterdam,1
+Frankfurt,Singapore,1
+Guangzhou,Chengdu,1
+Hanoi,Singapore,1
+Hawke's Bay,Auckland,1
+"Hobart, Australia","Melbourne, Australia",3
+Hong Kong,Amsterdam,4
+Hong Kong,"Melbourne, Australia",2
+Hong Kong,Moscow,1
+Johannesburg,Amsterdam,1
+Johannesburg,"Athens, Greece",1
+Johannesburg,Windhoek,1
+Kathmandu,Dhaka,1
+Kathmandu,Lukla,1
+Kuala Lumpur,"Melbourne, Australia",2
+Limbang,"Miri, Malaysia",1
+London,Amsterdam,1
+London,Windhoek,1
+Los Angeles,Amsterdam,1
+Lukla,Kathmandu,1
+"Luxor, Egypt",Duesseldorf,1
+"Manchester, England",Amsterdam,2
+"Melbourne, Australia",Abu Dhabi,2
+"Melbourne, Australia",Adelaide,1
+Adelaide,"Melbourne, Australia",1
+"Melbourne, Australia",Alice Springs,2
+"Melbourne, Australia","Athens, Greece",1
+"Melbourne, Australia",Auckland,2
+"Melbourne, Australia",Brisbane,
+"Melbourne, Australia",Christchurch,1
+"Melbourne, Australia","Darwin, Australia",1
+"Melbourne, Australia",Denpasar,1
+"Melbourne, Australia",Dubai,3
+"Melbourne, Australia","Hobart, Australia",3
+"Melbourne, Australia",Hong Kong,2
+"Melbourne, Australia",Perth,2
+"Melbourne, Australia",Port Douglas,2
+"Melbourne, Australia",Singapore,
+"Melbourne, Australia",Sydney,
+"Melbourne, Australia","Wellington, New Zealand",2
+"Miri, Malaysia",Gunung Mulu,1
+Moscow,Duesseldorf,1
+Moscow,Hong Kong,1
+New York,Reykjavik,1
+Penang,Singapore,1
+Perth,"Melbourne, Australia",2
+Reykjavik,Amsterdam,1
+Reykjavik,New York,1
+Singapore,Amsterdam,2
+Singapore,Auckland,3
+Singapore,Brunei,1
+Singapore,Chang Mai,1
+Singapore,Denpasar,1
+Singapore,Dhaka,3
+Singapore,Hanoi,1
+Singapore,"Melbourne, Australia",
+Sofia,Amsterdam,1
+Sofia,Cairo,1
+Sydney,Brisbane,1
+Sydney,"Melbourne, Australia",5
+Uluru,Alice Springs,1
+Victoria Falls,Harare,1
+"Wellington, New Zealand","Melbourne, Australia",2
+Windhoek,Cape Town,1
+Windhoek,London,1
+Yangon,Singapore,1
+Port Villa,Brisbane,1
+Christchurch,"Wellington, New Zealand",1
+Ho Chi Minh,Hanoi,1
+"Melbourne, Australia",Ho Chi Minh,1
+Hanoi,Ho Chi Minh,1
+Ho Chi Minh,"Melbourne, Australia",1
+Harare,Johannesburg,1
+Brisbane,Tokyo,
+Tokyo,Zürich,
+Frankfurt,San Francisco,
+San Francisco,Sydney,
