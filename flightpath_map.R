@@ -6,15 +6,17 @@ library(tidyverse)
 library(ggmap)
 api <- readLines("google.api") # Text file with the API key
 register_google(key = api)
+
 library(ggrepel)
 
 ## Read flight and airports lists 
 flights <- read_csv("flights.csv")
 airports_file <- "airports.csv"
+
 if (file.exists(airports_file)) {
   airports <- read_csv(airports_file)
   } else {
-  airports <- data_frame(airport = NA, lon = NA, lat= NA)
+  airports <- tibble(airport = NA, lon = NA, lat= NA)
 }
 
 ## Lookup coordinates
@@ -22,6 +24,7 @@ if (file.exists(airports_file)) {
 ## The geocoding keeps looping till all coordinates have been found
 destinations <- unique(c(flights$From, flights$To))
 new_destinations <- destinations[!destinations %in% airports$airport]
+
 while (length(new_destinations) > 0) {
     new_airports <- geocode(new_destinations) %>%
       mutate(airport = new_destinations) %>%
@@ -74,6 +77,6 @@ ggplot() + worldmap +
     geom_text_repel(data=airports, aes(x = lon, y = lat, label = airport), col = "black", size = 2, segment.color = NA) + 
     geom_curve(data = flights, aes(x = lon.x, y = lat.x, xend = lon.y, yend = lat.y), col = "#b29e7d", size = .4) + 
     theme_void()
-ggsave("Geography/flights_map.png", dpi = 300)
+ggsave("flights_map.png", dpi = 300)
 
 

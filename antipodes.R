@@ -11,8 +11,9 @@ ggplot() +
     geom_polygon(data = world,  aes(long, lat, group = group), fill = "grey") +
     geom_polygon(data = anti_world, aes(long, lat, group = group),
                  fill = "blue", alpha = 0.2) + 
-    coord_map("ortho", orientation = c(0, 100, 00)) +
+    coord_map("ortho", orientation = c(0, 29, 31)) +
     theme_void()
+
 ggsave("antipodes.png", dpi = 150)
 
 library(gridExtra)
