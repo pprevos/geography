@@ -11,6 +11,7 @@ worldmap <- ggplot(world) +
     labs(x = "", y = "")
 worldmap + 
     coord_map("azequidistant", orientation = c(90, 0, 270))
+
 ggsave("azequidistant.png", dpi = 150)
 
 ## Define itinerary
@@ -37,6 +38,7 @@ worldmap +
     geom_point(data = itinerary, aes(lon, lat), colour = "red", size = 4) +
     geom_path(data = itinerary, aes(lon, lat), colour = "red", size = 1) +
     coord_map("azequidistant", orientation = c(90, 0, 270))
+
 ggsave("rtw.png", dpi = 150)
 
 ## Great Circle Distance
@@ -74,4 +76,5 @@ sum(sqrt(diff(coords$x)^2 + diff(coords$y)^2))
 flatearth + 
     geom_point(data = coords, aes(x, y), colour = "red", size = 4) +
     geom_path(data = coords, aes(x, y), colour = "red", size = 1)
+
 ggsave("flatearth.png", dpi = 150)

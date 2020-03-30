@@ -6,10 +6,10 @@ library(tidyverse)
 library(ggmap)
 api <- readLines("google.api") # Text file with the API key
 register_google(key = api)
-
 library(ggrepel)
 
 ## Read flight and airports lists 
+#flights <- read_csv("flights.csv")
 flights <- read_csv("flights.csv")
 airports_file <- "airports.csv"
 
@@ -35,6 +35,11 @@ while (length(new_destinations) > 0) {
 }
 write_csv(airports, "airports.csv")
 
+## Remove country names
+airports$airport <- as.character(airports$airport)
+comma <- regexpr(",", airports$airport)
+airports$airport[which(comma > 0)] <- substr(airports$airport[which(comma > 0)], 1, comma[comma > 0] - 1)
+
 ## Remove return flights
 d <- vector()
 for (i in 1:nrow(flights)) {
@@ -42,7 +47,7 @@ for (i in 1:nrow(flights)) {
                paste(flights$To[i], flights$From[i]))
     flights$From[d] <- "R"
 }
-flights <- flights %>%
+flights2 <- flights %>%
   filter(From != "R") %>%
   select(From, To)
 
@@ -65,13 +70,8 @@ leg2 <- airports %>%
   select(From, To = airport, lon.x, lat.x, lon.y = lon, lat.y = lat)
 flights <- rbind(flights, leg2)
 
-## Remove country names
-airports$airport <- as.character(airports$airport)
-comma <- regexpr(",", airports$airport)
-airports$airport[which(comma > 0)] <- substr(airports$airport[which(comma > 0)], 1, comma[comma > 0] - 1)
-
 ## Plot flight routes
-worldmap <- borders("world", colour="#efede1", fill="#efede1") 
+worldmap <- borders("world2", colour="#efede1", fill="#efede1") 
 ggplot() + worldmap + 
     geom_point(data = airports, aes(x = lon, y = lat), col = "#970027") + 
     geom_text_repel(data=airports, aes(x = lon, y = lat, label = airport), col = "black", size = 2, segment.color = NA) + 

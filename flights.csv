@@ -1,126 +1,134 @@
-From,To,Frequency
-Abu Dhabi,Amsterdam,2
-Abu Dhabi,"Melbourne, Australia",2
-Adelaide,"Melbourne, Australia",1
-Alice Springs,"Melbourne, Australia",2
-Alice Springs,Yulara,1
-Amsterdam,Abu Dhabi,2
-Amsterdam,"Athens, Greece",2
-Amsterdam,Dhaka,1
-Amsterdam,Dubai,3
-Amsterdam,Frankfurt,1
-Amsterdam,Hong Kong,2
-Amsterdam,Istanbul,1
-Amsterdam,Johannesburg,1
-Amsterdam,London,1
-Amsterdam,Maastricht,2
-Amsterdam,"Manchester, England",2
-Amsterdam,Reykjavik,1
-Amsterdam,Singapore,2
-Amsterdam,Sofia,1
-"Athens, Greece",Amsterdam,3
-"Athens, Greece",Johannesburg,1
-"Athens, Greece","Melbourne, Australia",1
-Auckland,Hawke's Bay,1
-Auckland,Los Angeles,1
-Auckland,"Melbourne, Australia",1
-Auckland,Singapore,2
-Bangkok,Yangon,1
-Beijing,Hong Kong,1
-Brisbane,"Melbourne, Australia",1
-Brisbane,Port Villa,1
-Brisbane,"Tokyo, Japan",1
-Brunei,"Miri, Malaysia",1
-Brunei,Singapore,1
-Cairns,"Melbourne, Australia",3
-Cairo,Sofia,1
-Cape Town,Johannesburg,1
-Christchurch,"Melbourne, Australia",1
-Christchurch,"Wellington, New Zealand",1
-"Darwin, Australia","Melbourne, Australia",1
-Denpasar,"Melbourne, Australia",1
-Denpasar,Singapore,1
-Dhaka,Kathmandu,1
-Dhaka,Singapore,3
-Dubai,Amsterdam,3
-Dubai,Kuala Lumpur,2
-Dubai,Rome,1
-Duesseldorf,"Luxor, Egypt",1
-Duesseldorf,Moscow,1
-Frankfurt,Amsterdam,1
-Frankfurt,Frankfurt,1
-Frankfurt,San Francisco,1
-Frankfurt,Singapore,1
-Gold Coast,"Melbourne, Australia",1
-Guangzhou,Chengdu,1
-Hanoi,Ho Chi Minh,1
-Hanoi,Singapore,1
-Harare,Johannesburg,1
-Hawke's Bay,Auckland,1
-Ho Chi Minh,Hanoi,1
-Ho Chi Minh,"Melbourne, Australia",1
-"Hobart, Australia","Melbourne, Australia",3
-Hong Kong,Amsterdam,4
-Hong Kong,"Melbourne, Australia",2
-Hong Kong,Moscow,1
-Johannesburg,Amsterdam,1
-Johannesburg,"Athens, Greece",1
-Johannesburg,Windhoek,1
-Kathmandu,Dhaka,1
-Kathmandu,Lukla,1
-Kuala Lumpur,"Melbourne, Australia",2
-Limbang,"Miri, Malaysia",1
-London,Amsterdam,1
-London,Windhoek,1
-Los Angeles,Amsterdam,1
-Lukla,Kathmandu,1
-"Luxor, Egypt",Duesseldorf,1
-"Manchester, England",Amsterdam,2
-"Melbourne, Australia",Abu Dhabi,2
-"Melbourne, Australia",Adelaide,1
-"Melbourne, Australia",Alice Springs,2
-"Melbourne, Australia","Athens, Greece",1
-"Melbourne, Australia",Auckland,2
-"Melbourne, Australia",Brisbane,
-"Melbourne, Australia",Christchurch,1
-"Melbourne, Australia","Darwin, Australia",1
-"Melbourne, Australia",Denpasar,1
-"Melbourne, Australia",Dubai,3
-"Melbourne, Australia",Gold Coast,1
-"Melbourne, Australia",Ho Chi Minh,1
-"Melbourne, Australia","Hobart, Australia",3
-"Melbourne, Australia",Hong Kong,2
-"Melbourne, Australia",Perth,2
-"Melbourne, Australia",Cairns,3
-"Melbourne, Australia",Singapore,
-"Melbourne, Australia",Sydney,
-"Melbourne, Australia","Wellington, New Zealand",2
-"Miri, Malaysia",Gunung Mulu,1
-Moscow,Duesseldorf,1
-Moscow,Hong Kong,1
-New York,Reykjavik,1
-Penang,Singapore,1
-Perth,"Melbourne, Australia",2
-Port Villa,Brisbane,1
-Reykjavik,Amsterdam,1
-Reykjavik,New York,1
-San Francisco,Sydney,1
-Singapore,Amsterdam,2
-Singapore,Auckland,3
-Singapore,Brunei,1
-Singapore,Chang Mai,1
-Singapore,Denpasar,1
-Singapore,Dhaka,3
-Singapore,Hanoi,1
-Singapore,"Melbourne, Australia",
-Sofia,Amsterdam,1
-Sofia,Cairo,1
-Sydney,Brisbane,1
-Sydney,"Melbourne, Australia",5
-"Tokyo, Japan",Zürich,1
-Yulara,Alice Springs,1
-Victoria Falls,Harare,1
-"Wellington, New Zealand","Melbourne, Australia",2
-Windhoek,Cape Town,1
-Windhoek,London,1
-Yangon,Singapore,1
+From,To
+Yulara,Alice Springs
+Yangon,Singapore
+Windhoek,London
+Windhoek,Cape Town
+"Wellington, New Zealand","Melbourne, Australia"
+Victoria Falls,Harare
+"Tokyo, Japan",Zürich
+Sydney,"Melbourne, Australia"
+Sydney,Brisbane
+Sofia,Cairo
+Sofia,Amsterdam
+Singapore,"Melbourne, Australia"
+Singapore,Hanoi
+Singapore,Dhaka
+Singapore,Denpasar
+Singapore,Chang Mai
+Singapore,Brunei
+Singapore,Auckland
+Singapore,Amsterdam
+San Francisco,Sydney
+San Francisco,Las Vegas
+San Francisco,Amsterdam
+Reykjavik,New York
+Reykjavik,Amsterdam
+Port Villa,Brisbane
+Perth,"Melbourne, Australia"
+Penang,Singapore
+Newark,Los Angeles
+New York,Reykjavik
+Moscow,Hong Kong
+Moscow,Duesseldorf
+"Miri, Malaysia",Gunung Mulu
+"Melbourne, Australia","Wellington, New Zealand"
+"Melbourne, Australia",Sydney
+"Melbourne, Australia",Singapore
+"Melbourne, Australia",San Francisco
+"Melbourne, Australia",Perth
+"Melbourne, Australia",Hong Kong
+"Melbourne, Australia","Hobart, Australia"
+"Melbourne, Australia",Ho Chi Minh
+"Melbourne, Australia",Gold Coast
+"Melbourne, Australia",Dubai
+"Melbourne, Australia",Denpasar
+"Melbourne, Australia","Darwin, Australia"
+"Melbourne, Australia",Christchurch
+"Melbourne, Australia",Cairns
+"Melbourne, Australia",Brisbane
+"Melbourne, Australia",Auckland
+"Melbourne, Australia","Athens, Greece"
+"Melbourne, Australia",Alice Springs
+"Melbourne, Australia",Adelaide
+"Melbourne, Australia",Abu Dhabi
+"Manchester, England",Amsterdam
+"Luxor, Egypt",Duesseldorf
+Lukla,Kathmandu
+Los Angeles,"Melbourne, Australia"
+Los Angeles,Amsterdam
+London,Windhoek
+London,Amsterdam
+Limbang,"Miri, Malaysia"
+Las Vegas,San Francisco
+Kuala Lumpur,"Melbourne, Australia"
+Kathmandu,Lukla
+Kathmandu,Dhaka
+Johannesburg,Windhoek
+Johannesburg,"Athens, Greece"
+Johannesburg,Amsterdam
+Hong Kong,Moscow
+Hong Kong,"Melbourne, Australia"
+Hong Kong,Amsterdam
+"Hobart, Australia","Melbourne, Australia"
+Ho Chi Minh,"Melbourne, Australia"
+Ho Chi Minh,Hanoi
+Hawke's Bay,Auckland
+Harare,Johannesburg
+Hanoi,Singapore
+Hanoi,Ho Chi Minh
+Guangzhou,Chengdu
+Gold Coast,"Melbourne, Australia"
+Frankfurt,Singapore
+Frankfurt,San Francisco
+Frankfurt,Frankfurt
+Frankfurt,Amsterdam
+Duesseldorf,Moscow
+Duesseldorf,"Luxor, Egypt"
+Dubai,Rome
+Dubai,Kuala Lumpur
+Dubai,Johannesburg
+Dubai,Amsterdam
+Dhaka,Singapore
+Dhaka,Kathmandu
+Denpasar,Singapore
+Denpasar,"Melbourne, Australia"
+"Darwin, Australia","Melbourne, Australia"
+Christchurch,"Wellington, New Zealand"
+Christchurch,"Melbourne, Australia"
+Cape Town,Johannesburg
+Cairo,Sofia
+Cairns,"Melbourne, Australia"
+Brunei,Singapore
+Brunei,"Miri, Malaysia"
+Brisbane,"Tokyo, Japan"
+Brisbane,Port Villa
+Brisbane,"Melbourne, Australia"
+Beijing,Hong Kong
+Bangkok,Yangon
+Auckland,Singapore
+Auckland,"Melbourne, Australia"
+Auckland,Los Angeles
+Auckland,Hawke's Bay
+"Athens, Greece","Melbourne, Australia"
+"Athens, Greece",Johannesburg
+"Athens, Greece",Amsterdam
+Amsterdam,Sofia
+Amsterdam,Singapore
+Amsterdam,Reykjavik
+Amsterdam,"Manchester, England"
+Amsterdam,Maastricht
+Amsterdam,London
+Amsterdam,Johannesburg
+Amsterdam,Istanbul
+Amsterdam,Hong Kong
+Amsterdam,Frankfurt
+Amsterdam,Dubai
+Amsterdam,Dhaka
+Amsterdam,"Athens, Greece"
+Amsterdam,Abu Dhabi
+Amsterdam, Newark
+Alice Springs,Yulara
+Alice Springs,"Melbourne, Australia"
+Adelaide,"Melbourne, Australia"
+Abu Dhabi,"Melbourne, Australia"
+Abu Dhabi,Amsterdam
