@@ -1,0 +1,48 @@
+Airline,From,From.Country,To,To.Country
+Nauru Ailines,Nauru,Nauru,Honiara,Solomon Islands
+Nauru Ailines,Nauru,Nauru,Brisbane,Australia
+Nauru Ailines,Nauru,Nauru,Tarawa,Kiribati
+Nauru Ailines,Tarawa,Kiribati,Majuro,Marshall Islands
+Nauru Ailines,Majuro,Marshall Islands,Pohnpei,Micronesia
+Nauru Ailines,Nauru,Nauru,Nadi,Fiji
+Nauru Ailines,Nadi,Fiji,Nauru,Nauru
+Solomon Airlines,Honiara,Solomon Islands,Nadi,Fiji
+Solomon Airlines,Honiara,Solomon Islands,Brisbane,Australia
+Solomon Airlines,Honiara,Solomon Islands,Port Moresby,Papua New Guinea
+Solomon Airlines,Honiara,Solomon Islands,Port Vila,Vanuatu
+Solomon Airlines,Honiara,Solomon Islands,Tarawa,Kiribati
+Solomon Airlines,Honiara,Solomon Islands,Sydney,Australia
+United Airlines,Guam,Guam,Chuuk,Micronesia
+United Airlines,Chuuk,Micronesia,Pohnpei,Micronesia
+United Airlines,Pohnpei,Micronesia,Kosrae,Micronesia
+United Airlines,Kosrae,Micronesia,Majuro,Marshall Islands
+United Airlines,Majuro,Marshall Islands,Honolulu,USA
+Air Vanuatu,Port Vila,Vanuatu,Nadi,Fiji
+Air Vanuatu,Port Vila,Vanuatu,Suva,Fiji
+Air Vanuatu,Port Vila,Vanuatu,Auckland,New Zealand
+Air Vanuatu,Port Vila,Vanuatu,Sydney,Australia
+Air Vanuatu,Port Vila,Vanuatu,Noumea,New Caledonia
+Air New Zealand,Auckland,New Zealand,Tongatapu,Tonga
+Fiji Airways,Nadi,Fiji,Tongatapu,Tonga
+Fiji Link,Suva,Fiji,Tongatapu,Tonga
+Talofa Airways,Apia,Samoa,Tongatapu,Tonga
+Talofa Airways,Apia,Samoa,Pago Pago,American Samoa
+Fiji Link,Nadi,Fiji,Funafuti,Tuvalu
+Hawaiian Airlines,Honolulu,USA,Papeete,French Polynesia
+Aircalin,Noumea,New Caledonia,Papeete,French Polynesia
+Air Niugini,Port Moresby,Solomon Islands,Pohnpei,Micronesia
+Air Niugini,Pohnpei,Micronesia,Chuuk,Micronesia
+Air Niugini,Chuuk,Micronesia,Port Moresby,Papua New Guinea
+LATAM Airlines,Santiago de Chile,Chili,Easter Island,Chili
+LATAM Airlines,Easter Island,Chili,Papeete,French Polynesia
+Air New Zealand,Auckland,New Zealand,Papeete,French Polynesia
+United Airlines,Honolulu,USA,Los Angeles,USA
+Fiji Airways,Nadi,Fiji,Kiritimati,Kiribati
+Fiji Airways,Kiritimati,Kiribati,Honolulu,USA
+United Airlines,Guam,Guam,Yap,Caroline Islands
+United Airlines,Guam,Guam,Koror,Palau
+United Airlines,Guam,Guam,Saipan,Mariana Islands
+Air Tahiti,Papeete,French Polynesia,Rarotonga,Cook Islands
+Air New Zealand,Rarotonga,Cook Islands,Auckland,New Zealand
+Latam Equador,Quito,Equador,Baltra,Equador
+Latam Equador,Quito,Equador,Santiago de Chile,Chili

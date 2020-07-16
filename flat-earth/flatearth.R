@@ -1,22 +1,24 @@
-## Flat Earth mathematics
-## https://lucidmanager.org/flat-earth-mathematics/
+## Flat Earth Mathematics
+library(ggplot2)
 
-## Recreate Gleason's Map
-library(tidyverse)
 world <- map_data("world")
+
 worldmap <- ggplot(world) +
-    geom_path(aes(x = long, y = lat, group = group), size = .2) +
-    theme(axis.text = element_blank(),
-          axis.ticks = element_blank()) +
-    labs(x = "", y = "")
+  geom_path(aes(x = long, y = lat, group = group), size = .2) +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank()) +
+  labs(x = "", y = "")
+
 worldmap + 
-    coord_map("azequidistant", orientation = c(90, 0, 270))
+  coord_map("azequidistant", orientation = c(90, 0, 270))
 
-ggsave("azequidistant.png", dpi = 150)
+ggsave("azequidistant.png")
 
-## Define itinerary
+## Round the World Itinerary
 library(ggmap)
-api <- readLines("google.api") # Text file with the API key
+library(dplyr)
+
+api <- readLines("google.api") # Text file with the secret API key
 register_google(key = api)
 airports <- c("Melbourne", "Tokyo", "Amsterdam", "San Francisco")
 itinerary <- geocode(airports)
@@ -39,15 +41,12 @@ worldmap +
     geom_path(data = itinerary, aes(lon, lat), colour = "red", size = 1) +
     coord_map("azequidistant", orientation = c(90, 0, 270))
 
-ggsave("rtw.png", dpi = 150)
-
 ## Great Circle Distance
 library(geosphere)
 sapply(1:(nrow(itinerary) - 1), function(l)
     distVincentyEllipsoid(itinerary[l, 1:2], itinerary[(l + 1), 1:2]) / 1000) %>%
     sum()
 
-## Flat Eart Mathematics
 library(mapproj)
 flatearth.coords <- mapproject(world$long, world$lat,
                         "azequidistant", orientation = c(90, 0, 270))
@@ -76,5 +75,3 @@ sum(sqrt(diff(coords$x)^2 + diff(coords$y)^2))
 flatearth + 
     geom_point(data = coords, aes(x, y), colour = "red", size = 4) +
     geom_path(data = coords, aes(x, y), colour = "red", size = 1)
-
-ggsave("flatearth.png", dpi = 150)
